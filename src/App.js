@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routes/routes/Routes';
 
 function App() {
   return (
-    <div className="min-h-screen  bg-red-500">
-
+    <div className="min-h-screen">
+      <RouterProvider router={router} />
     </div>
   );
 }

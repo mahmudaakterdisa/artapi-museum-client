@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "Searchresult"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.preferences": {
+
+    }
+}
