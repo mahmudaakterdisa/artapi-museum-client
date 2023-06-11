@@ -17,7 +17,7 @@ function Single() {
             {/* Big Image Card */}
             <div className='Card'>
                 <div>
-                    {singlePageDetails.artObject.webImage.url ? <img src={singlePageDetails.artObject.webImage.url} alt="big card image" /> : <h2>NO IMAGE FOUND</h2>}
+                    {singlePageDetails.artObject.webImage.url ? <img src={singlePageDetails.artObject.webImage.url} alt="big card" /> : <h2>NO IMAGE FOUND</h2>}
 
                 </div>
                 <div className='imageTitle'>

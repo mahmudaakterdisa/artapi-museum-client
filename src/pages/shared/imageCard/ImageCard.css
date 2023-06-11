@@ -16,34 +16,25 @@
     right: 0px;
     top: 0px;
     bottom: 0px;
-
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 34.32%, rgba(0, 0, 0, 0.72) 72.5%);
     border-radius: 8px;
 }
 
 .imageCardContainer h3 {
     position: absolute;
-    height: 132px;
+    height: 12rem;
     left: 24px;
     right: 80px;
     bottom: 40px;
-
-
-    /* Desktop/H3 */
-    /* 
-    font-family: 'Roboto'; */
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    /* font-size: 32px; */
     line-height: 40px;
-    /* or 125% */
-
     display: flex;
     align-items: flex-end;
-
-    /* Secondary/Dust */
-
     color: #C4C4C4;
+    flex-wrap: wrap;
 }
 
 .author {
@@ -51,7 +42,7 @@
     gap: 0.625rem;
     display: inline-block;
     position: absolute;
-    height: 1.5rem;
+    height: 2rem;
     right: 0px;
     top: 0px;
     background: rgba(29, 29, 29, 0.5);

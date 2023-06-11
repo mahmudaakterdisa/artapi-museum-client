@@ -8,7 +8,7 @@ const Search = () => {
     const searchResultByName = useLoaderData();
     const { artObjects } = searchResultByName;
     const [page, setPage] = useState(1);
-    const [size, setSize] = useState(9);
+    const size = 9; //default items per page
     const pages = Math.ceil(artObjects.length / size);
 
 

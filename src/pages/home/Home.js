@@ -7,7 +7,7 @@ import { useState } from 'react';
 function Home() {
     const { artObjects } = useLoaderData();
     const [page, setPage] = useState(1);
-    const [size, setSize] = useState(9);
+    const size = 9; //default items per page;
     const pages = Math.ceil(artObjects.length / size);
 
 
